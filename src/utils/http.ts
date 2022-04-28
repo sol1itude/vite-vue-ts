@@ -11,7 +11,7 @@
      (error: any) => {
          Promise.reject(error);
      }
- );
+ ); 
 
  // Response interceptors
  service.interceptors.response.use(
